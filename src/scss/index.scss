@@ -1,0 +1,298 @@
+@import "./global/reset";
+
+
+// FONT LIGHT
+@font-face {
+    font-family: "Niveau Grotesk";
+    src: url("fonts/NiveauGroteskLight.eot");
+    src: url("fonts/NiveauGroteskLight.woff") format("woff"),
+    url("fonts/NiveauGroteskLight.otf") format("opentype"),
+    url("fonts/NiveauGroteskLight..feather") format(".feather");
+    font-weight: 200;
+}
+
+// FONT REGULAR
+@font-face {
+    font-family: "Niveau Grotesk";
+    src: url("fonts/NiveauGroteskRegular.eot");
+    src: url("fonts/NiveauGroteskRegular.woff") format("woff"),
+    url("fonts/NiveauGroteskRegular.otf") format("opentype"),
+    url("fonts/NiveauGroteskRegular..feather") format(".feather");
+    font-weight: 400;
+}
+
+// FONT BOLD
+@font-face {
+    font-family: "Niveau Grotesk";
+    src: url("fonts/NiveauGroteskBold.eot");
+    src: url("fonts/NiveauGroteskBold.woff") format("woff"),
+    url("fonts/NiveauGroteskBold.otf") format("opentype"),
+    url("fonts/NiveauGroteskBold..feather") format(".feather");
+    font-weight: 600;
+}
+
+// FONT BLACK
+@font-face {
+    font-family: "Niveau Grotesk";
+    src: url("fonts/NiveauGroteskBlack.eot");
+    src: url("fonts/NiveauGroteskBlack.woff") format("woff"),
+    url("fonts/NiveauGroteskBlack.otf") format("opentype"),
+    url("fonts/NiveauGroteskBlack..feather") format(".feather");
+    font-weight:900;
+}
+
+// COLORS
+$main: #333333;
+$mainLight: #808080;
+$mainLighter: #D2D2D2;
+$second: #ED1D25;
+
+$accepted: #07C32D;
+$denied: #ec343b;
+
+// FONTS
+$font: 'Niveau Grotesk';
+
+
+p, a, h1, h2, h3, h4, h5, h6, div, input{
+    font-family: $font;
+}
+
+p{
+    font-size: 18px;
+}
+
+.vh70{
+    min-height: 70vh;
+}
+
+.bkgDark{
+    background-color: $main;
+}
+
+.bkgGrey{
+    background-color: $mainLight;
+}
+
+.bkgLight{
+    background-color: $mainLighter;
+}
+
+.bkgRed{
+    background-color: $second;
+}
+
+body{
+    padding-top: 215px;
+    max-width: 1000px;
+    width: 100%;
+    margin: auto!important; 
+    display: block;
+}
+
+.buttonStyle{
+    display: block;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.2s;
+    font-weight: 900;
+    font-size: 20px;
+    letter-spacing: 3px;
+    padding: 10px;
+    cursor: pointer;
+    &.formButton{
+        background-color: $second;
+        border: 2px solid $second;
+        &:hover{
+            background-color: #fff;
+            color: $second;
+        }
+    }
+}
+
+// HEADER
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    img {
+        max-width: 100px;
+        width: 100%;
+        margin: auto;
+        display: block;
+    }
+}
+
+// FOOTER
+.footer{
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    letter-spacing: 1px;
+}
+
+// MENU
+.menuContain {
+    position: fixed;
+    width: 100%;
+    bottom: -1px;
+    left: -1px;
+    right: -1px;
+    .menuItem{
+        font-size: 16px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border: 1px solid #fff;
+        font-weight: 600;
+        letter-spacing: 2px;
+        .feather{
+            vertical-align: top;
+            width: 22px;
+            height: 22px;
+        }
+        a{
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+}
+
+// TITLE
+.titleBkg{
+    background-color: $main;
+    h1,h2,h3,h4{
+        color: #fff;
+        text-transform: uppercase;
+        margin: 0;
+        text-align: center;    
+    }
+    .feather{
+        vertical-align: baseline;
+    }
+}
+
+.subTitle{
+    font-size: 24px;
+    font-weight: 200;
+    .feather {
+        color: $second;
+        stroke-width: 1;
+    }
+}
+
+
+// LOGIN PAGE
+.loginBlock{
+    img {
+        max-width: 100px;
+    }
+}
+
+.formField{
+    margin: 30px 0px;
+    input{
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+        color: $main;
+        border: 1px solid $mainLighter;
+        font-size: 18px;
+    }
+}
+
+// PARK LIST
+.pList{
+    .pElement {
+        font-size: 18px;
+        font-weight: 300;
+        border-bottom: 1px solid #dedede;
+        cursor: pointer;
+        .feather{
+            stroke-width: 1px;
+            color: $second;
+            vertical-align: top;
+            margin-right: 10px;
+        }
+    }
+}
+
+// HELP PAGE
+.helpPage{
+    p, small{
+        font-weight: 200;
+        color: $mainLight;
+        &.subTitle{
+            color: $main;
+        }
+    }
+    small{
+        font-weight: 400;
+        .feather{
+            color: $mainLight;
+            width: 30px;
+            height: 30px;
+            stroke-width: 1;
+        }
+    }
+} 
+
+// LOGOUT PAGE
+.answers{
+    .buttonStyle{
+        border: 3px solid #fff;
+    }
+}
+
+// TARGA
+.targaField {
+    .subTitle{
+        font-weight: 400;
+    }
+    input {
+        width: 100%;
+        text-align: center;
+        font-size: 42px;
+        border: 2px solid $mainLighter;
+        background-color: #fff;
+        letter-spacing: 5px;
+        font-weight: 600;
+        color: $main;
+        transition: 0.2s;
+        &.denied{
+            color: $denied;
+            background-color: rgba(236, 52, 59, 0.2);
+            border: 2px solid $denied;
+        }
+        &.accepted{
+            color: $accepted;
+            background-color: rgba(7, 195, 45, 0.2);
+            border: 2px solid $accepted;
+        }
+    }
+}
+
+.status {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    h5{
+        font-weight: 900;
+        .feather{
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
+    }
+    &.notValid{
+        color: $denied;
+    }
+    &.valid{
+        color: $accepted;
+    }
+}

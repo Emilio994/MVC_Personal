@@ -1,0 +1,429 @@
+html, body, div, span, object, iframe, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video, button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html:before, html:after, body:before, body:after, div:before, div:after, span:before, span:after, object:before, object:after, iframe:before, iframe:after, blockquote:before, blockquote:after, pre:before, pre:after,
+abbr:before,
+abbr:after, address:before, address:after, cite:before, cite:after, code:before, code:after,
+del:before,
+del:after, dfn:before, dfn:after, em:before, em:after, img:before, img:after, ins:before, ins:after, kbd:before, kbd:after, q:before, q:after, samp:before, samp:after,
+small:before,
+small:after, strong:before, strong:after, var:before, var:after,
+b:before,
+b:after, i:before, i:after,
+dl:before,
+dl:after, dt:before, dt:after, dd:before, dd:after, ol:before, ol:after, ul:before, ul:after, li:before, li:after,
+fieldset:before,
+fieldset:after, form:before, form:after, label:before, label:after, legend:before, legend:after,
+article:before,
+article:after, aside:before, aside:after, canvas:before, canvas:after, details:before, details:after, figcaption:before, figcaption:after, figure:before, figure:after,
+footer:before,
+footer:after, header:before, header:after, hgroup:before, hgroup:after, menu:before, menu:after, nav:before, nav:after, section:before, section:after, summary:before, summary:after,
+time:before,
+time:after, mark:before, mark:after, audio:before, audio:after, video:before, video:after, button:before, button:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+sub,
+sup {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  background: transparent;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+sub:before, sub:after,
+sup:before,
+sup:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a:before, a:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  background: transparent;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+ol, ul, li {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: none;
+}
+
+q:before, q:after {
+  content: none;
+}
+
+:focus {
+  outline: 0;
+}
+
+input[type="text"], textarea {
+  -webkit-appearance: none;
+}
+
+input[type="text"]::-ms-clear, textarea::-ms-clear {
+  display: none;
+}
+
+input,
+textarea {
+  border-radius: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+input:focus::-webkit-input-placeholder,
+textarea:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+input:focus::-moz-placeholder,
+textarea:focus::-moz-placeholder {
+  color: transparent;
+}
+
+input:focus:-ms-input-placeholder,
+textarea:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+textarea {
+  resize: none;
+}
+
+ins {
+  text-decoration: none;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+@font-face {
+  font-family: "Niveau Grotesk";
+  src: url("fonts/NiveauGroteskLight.eot");
+  src: url("fonts/NiveauGroteskLight.woff") format("woff"), url("fonts/NiveauGroteskLight.otf") format("opentype"), url("fonts/NiveauGroteskLight..feather") format(".feather");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Niveau Grotesk";
+  src: url("fonts/NiveauGroteskRegular.eot");
+  src: url("fonts/NiveauGroteskRegular.woff") format("woff"), url("fonts/NiveauGroteskRegular.otf") format("opentype"), url("fonts/NiveauGroteskRegular..feather") format(".feather");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Niveau Grotesk";
+  src: url("fonts/NiveauGroteskBold.eot");
+  src: url("fonts/NiveauGroteskBold.woff") format("woff"), url("fonts/NiveauGroteskBold.otf") format("opentype"), url("fonts/NiveauGroteskBold..feather") format(".feather");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Niveau Grotesk";
+  src: url("fonts/NiveauGroteskBlack.eot");
+  src: url("fonts/NiveauGroteskBlack.woff") format("woff"), url("fonts/NiveauGroteskBlack.otf") format("opentype"), url("fonts/NiveauGroteskBlack..feather") format(".feather");
+  font-weight: 900;
+}
+
+p, a, h1, h2, h3, h4, h5, h6, div, input {
+  font-family: "Niveau Grotesk";
+}
+
+p {
+  font-size: 18px;
+}
+
+.vh70 {
+  min-height: 70vh;
+}
+
+.bkgDark {
+  background-color: #333333;
+}
+
+.bkgGrey {
+  background-color: #808080;
+}
+
+.bkgLight {
+  background-color: #D2D2D2;
+}
+
+.bkgRed {
+  background-color: #ED1D25;
+}
+
+body {
+  padding-top: 215px;
+  max-width: 1000px;
+  width: 100%;
+  margin: auto !important;
+  display: block;
+}
+
+.buttonStyle {
+  display: block;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  font-weight: 900;
+  font-size: 20px;
+  letter-spacing: 3px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.buttonStyle.formButton {
+  background-color: #ED1D25;
+  border: 2px solid #ED1D25;
+}
+
+.buttonStyle.formButton:hover {
+  background-color: #fff;
+  color: #ED1D25;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+}
+
+.header img {
+  max-width: 100px;
+  width: 100%;
+  margin: auto;
+  display: block;
+}
+
+.footer {
+  color: #fff;
+  padding: 10px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  letter-spacing: 1px;
+}
+
+.menuContain {
+  position: fixed;
+  width: 100%;
+  bottom: -1px;
+  left: -1px;
+  right: -1px;
+}
+
+.menuContain .menuItem {
+  font-size: 16px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid #fff;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.menuContain .menuItem .feather {
+  vertical-align: top;
+  width: 22px;
+  height: 22px;
+}
+
+.menuContain .menuItem a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.titleBkg {
+  background-color: #333333;
+}
+
+.titleBkg h1, .titleBkg h2, .titleBkg h3, .titleBkg h4 {
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0;
+  text-align: center;
+}
+
+.titleBkg .feather {
+  vertical-align: baseline;
+}
+
+.subTitle {
+  font-size: 24px;
+  font-weight: 200;
+}
+
+.subTitle .feather {
+  color: #ED1D25;
+  stroke-width: 1;
+}
+
+.loginBlock img {
+  max-width: 100px;
+}
+
+.formField {
+  margin: 30px 0px;
+}
+
+.formField input {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  color: #333333;
+  border: 1px solid #D2D2D2;
+  font-size: 18px;
+}
+
+.pList .pElement {
+  font-size: 18px;
+  font-weight: 300;
+  border-bottom: 1px solid #dedede;
+  cursor: pointer;
+}
+
+.pList .pElement .feather {
+  stroke-width: 1px;
+  color: #ED1D25;
+  vertical-align: top;
+  margin-right: 10px;
+}
+
+.helpPage p, .helpPage small {
+  font-weight: 200;
+  color: #808080;
+}
+
+.helpPage p.subTitle, .helpPage small.subTitle {
+  color: #333333;
+}
+
+.helpPage small {
+  font-weight: 400;
+}
+
+.helpPage small .feather {
+  color: #808080;
+  width: 30px;
+  height: 30px;
+  stroke-width: 1;
+}
+
+.answers .buttonStyle {
+  border: 3px solid #fff;
+}
+
+.targaField .subTitle {
+  font-weight: 400;
+}
+
+.targaField input {
+  width: 100%;
+  text-align: center;
+  font-size: 42px;
+  border: 2px solid #D2D2D2;
+  background-color: #fff;
+  letter-spacing: 5px;
+  font-weight: 600;
+  color: #333333;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.targaField input.denied {
+  color: #ec343b;
+  background-color: rgba(236, 52, 59, 0.2);
+  border: 2px solid #ec343b;
+}
+
+.targaField input.accepted {
+  color: #07C32D;
+  background-color: rgba(7, 195, 45, 0.2);
+  border: 2px solid #07C32D;
+}
+
+.status {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.status h5 {
+  font-weight: 900;
+}
+
+.status h5 .feather {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.status.notValid {
+  color: #ec343b;
+}
+
+.status.valid {
+  color: #07C32D;
+}
+/*# sourceMappingURL=index.css.map */

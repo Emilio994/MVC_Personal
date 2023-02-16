@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="assets/js/index.js"></script>
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <!-- HEADER -->
+    <section class="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 py-4">
+                    <img src="assets/images/logo.png" alt=""> 
+                </div>
+            </div>
+        </div><div class="titleBkg py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3><i data-feather="map-pin"></i> via Umberto I - Ospedale Vecchio -</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-- /HEADER -->
+
+    <!-- CONTENT -->
+    <section class="helpPage">
+        <div class="container vh70">
+            <div class="row py-5">
+                <div class="col-2 ps-4 pt-4">
+                    <small><i data-feather="info"></i></small>
+                </div>
+                <div class="col-10 pe-4 pt-4 text-justify">
+                    <small>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam molestie efficitur tortor, condimentum lobortis neque volutpat in. Nullam commodo felis sem.
+                    </small>
+                </div>
+            </div>
+            <div class="row py-4">
+                <div class="col-12 px-4 text-center">
+                    <div class="targaField">
+                        <p class="subTitle mb-2 text-uppercase">Inserisci targa</p>
+                        <!-- Se la targa è valida, mettere la classe "accepted" all'input, altrimenti mettere la classe "denied" -->
+                        <input type="text" name="" placeholder="AA 000 AA" class="">
+                    </div>
+                    <div class="buttonStyle bkgRed my-4">
+                        verifica
+                    </div> 
+                    <div class="status notValid my-4"> 
+                        <h5><i data-feather="alert-triangle"></i> Targa non valida</h5>
+                    </div>
+
+                    <div class="status valid my-4"> 
+                        <h5> <i data-feather="check-square"></i>Targa valida</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /CONTENT -->
+    
+    <!-- MENU -->
+    <div class="menuContain bkgDark"></div> 
+    <!-- /MENU -->
+
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
